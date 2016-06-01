@@ -124,6 +124,6 @@ echo "R $R_VERSION successfully installed" | indent
 # installed packages are included in the slug
 rm -rf $VENDOR_DIR/R
 mkdir -p $VENDOR_DIR/R
-mkdir $HOME/.heroku/vendor
+mkdir -p $HOME/.heroku/vendor
 cp -R /app/vendor/R/* $VENDOR_DIR/R
 cp -R /app/vendor/R/* $HOME/.heroku/vendor
